@@ -1,3 +1,3 @@
 #!/bin/bash/
-dotnet restore .
-dotnet build  .
+dotnet restore ./MyFirstMvcDemo.sln
+dotnet publish  ./MyFirstMvcDemo/MyFirstMvcDemo.csproj
